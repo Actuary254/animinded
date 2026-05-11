@@ -245,3 +245,61 @@ label {
     padding: 16px;
   }
 }
+
+/* FORCE FINAL DARK THEME RESTORE */
+html,
+body,
+#app {
+  background: #0F0F1A !important;
+  color: #ffffff !important;
+}
+
+.page {
+  background:
+    radial-gradient(circle at top left, rgba(108, 60, 225, 0.20), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(255, 107, 53, 0.08), transparent 28%),
+    #0F0F1A !important;
+  color: #ffffff !important;
+}
+
+main,
+section {
+  background: transparent !important;
+}
+
+.panel,
+.card,
+.anime-card,
+.result-card,
+.bookmark-card,
+.watched-card,
+.empty-state,
+.stat,
+.toolbar {
+  background: #1A1A30 !important;
+  color: #ffffff !important;
+  border: 1px solid #2d2d4d !important;
+}
+
+.navbar {
+  background: rgba(26, 26, 48, 0.98) !important;
+  color: #ffffff !important;
+}
+
+input,
+select,
+textarea {
+  background: #111122 !important;
+  color: #ffffff !important;
+  border: 1px solid #343459 !important;
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+label,
+small {
+  color: inherit !important;
+}
